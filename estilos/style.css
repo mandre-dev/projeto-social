@@ -9,7 +9,6 @@
 
 html, body {
     height: 110vh;
-    width: 100vw; /* Usa toda a largura da tela */
     background-color: black;
 }
 
@@ -43,4 +42,27 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    border-radius: 50%; /* arredonda os botões quadrados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate( -3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.612);
+    transition: transform 0.3s, border 0.3s;
 }
