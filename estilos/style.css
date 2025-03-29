@@ -8,7 +8,7 @@
 }
 
 html, body {
-    height: 100vh;
+    height: 110vh;
     width: 100vw; /* Usa toda a largura da tela */
     background-color: black;
 }
@@ -28,16 +28,19 @@ main {
 
 section#telefone {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-
     height: 627px;
     width: 311px;
-    background-color:  blue;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
 
-
-
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
