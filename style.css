@@ -8,10 +8,14 @@
 }
 
 html, body {
-
     height: 100vh;
-    width: 100vh;
+    width: 100vw; /* Usa toda a largura da tela */
     background-color: black;
-    
+}
+
+
+main {
+    height: 100vh;
+    position: relative;
 
 }
